@@ -1,0 +1,57 @@
+body{
+    background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),
+    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,
+    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)
+      calc(2 * 60px),
+    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)
+      calc(3 * 60px),
+    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);
+  background-size: calc(4 * 60px) calc(4 * 60px);
+}
+
+.box{
+    border: 1px solid black;
+    width: 60%;
+    height: 100vh;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 30Px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #47d3ff;
+    font-family: "Playwrite PL", cursive;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+h1+p{
+    
+    font-size: 30px;
+}
+span{
+    color: #474bff;
+    font-family: "Playwrite AU NSW", cursive;
+}
+header{
+    padding: 20PX 20pX;
+}
+aside{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0px 10%;
+    border-radius: 30px;
+    padding:0px 10Px;
+}
+#funny{
+    font-size: 30px;
+    color: #474bff;
+
+    font-weight: 800;
+}
